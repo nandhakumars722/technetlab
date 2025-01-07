@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { brainmaster } from "../assets";
+import logo from '../assets/logo.png'
 import { navigation } from "../constants";
 import Button from "./Button";
 import { HamburgerMenu } from "./design/Header";
@@ -34,12 +34,12 @@ const Header = () => {
       ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <a  href="#hero">
           <img
-            src={brainmaster}
-            width={196}
+            src={logo}
+            width={296}
             height={40}
-            alt="Brainmaster logo"
+            alt="TechNetLab Logo"
           />
         </a>
         <nav

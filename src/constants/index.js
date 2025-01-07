@@ -49,32 +49,42 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#home",
   },
   {
     id: "1",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About Us",
+    url: "#about",
   },
   {
     id: "2",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Courses",
+    url: "#courses",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Testimonials",
+    url: "#testimonials",
   },
   {
     id: "4",
+    title: "Clients",
+    url: "#clients",
+  },
+  {
+    id: "5",
+    title: "Contact Us",
+    url: "#contact",
+  },
+  {
+    id: "6",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "7",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,

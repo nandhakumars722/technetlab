@@ -1,4 +1,4 @@
-import brainmaster from "./brainmaster.svg";
+import logo from "./logo.png";
 import check from "./check.svg";
 import brainmasterSymbol from "./brainmaster-symbol.svg";
 import brainmasterWhiteSymbol from "./brainmaster-symbol-white.svg";
@@ -89,7 +89,7 @@ import companyLogo6 from "./companylogos/yourlogo-6.png";
 import companyLogo7 from "./companylogos/yourlogo-7.png";
 
 export {
-  brainmaster,
+  logo,
   check,
   check2,
   loading1,
