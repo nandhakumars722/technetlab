@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { curve, heroBackground, robot } from "../assets";
+import { curve, heroBackground, book } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <Section
       id="hero"
-      className="pt-[12rem] -mt-[3.45rem]"
+      className="pt-[12rem] -mt-[4.90rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -40,7 +40,7 @@ const Hero = () => {
             Your Gateway to Global Certifications, Advanced Training, and Career
             Excellence
           </p>
-          <Button href="/pricing" white>
+          <Button href="/" white>
             Get Started
           </Button>
         </div>
@@ -50,11 +50,11 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-6 rounded-t-[0.9rem]"></div>
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  src={book}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
-                  alt="AI robot image"
+                  alt="Course Book image"
                 />
                 {/* <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" /> */}
 
@@ -70,7 +70,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="Course Learning"
                   />
                 </ScrollParallax>
               </div>
@@ -89,7 +89,7 @@ const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
       <BottomLine />
     </Section>

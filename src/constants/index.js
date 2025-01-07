@@ -27,7 +27,6 @@ import {
   instagram,
   notification2,
   notification3,
-  notification4,
   notion,
   photoshop,
   plusSquare,
@@ -77,12 +76,12 @@ export const navigation = [
     title: "Contact Us",
     url: "#contact",
   },
-  {
-    id: "6",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "6",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
   {
     id: "7",
     title: "Sign in",
@@ -93,7 +92,7 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [notification3, notification2];
 
 export const companyLogos = [
   companyLogo2,
