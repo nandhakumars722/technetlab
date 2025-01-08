@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <Section
-      id="hero"
+      id="home"
       className="pt-[12rem] -mt-[4.90rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
