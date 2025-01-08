@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import check from "./check.svg";
-import brainmasterSymbol from "./brainmaster-symbol.svg";
+import techNetSymbol from "./techNet.svg";
 import brainmasterWhiteSymbol from "./brainmaster-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -22,7 +22,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import book from "./hero/book.jpg";
+import book from "./hero/book.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -73,26 +73,33 @@ import benefitImage5 from "./benefits/image-5.png";
 import benefitImage6 from "./benefits/image-6.png";
 import benefitImage7 from "./benefits/image-7.png";
 
+import course1 from "./courses/image-1.png";
+import course2 from "./courses/image-2.png";
+import course3 from "./courses/image-3.png";
+
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import companyLogo1 from "./companylogos/yourlogo-1.png";
-import companyLogo2 from "./companylogos/yourlogo-2.png";
-import companyLogo3 from "./companylogos/yourlogo-3.png";
-import companyLogo4 from "./companylogos/yourlogo-4.png";
-import companyLogo5 from "./companylogos/yourlogo-5.png";
-import companyLogo6 from "./companylogos/yourlogo-6.png";
-import companyLogo7 from "./companylogos/yourlogo-7.png";
+import companyLogo1 from "./companylogos/01.png";
+import companyLogo2 from "./companylogos/02.png";
+import companyLogo3 from "./companylogos/03.png";
+import companyLogo4 from "./companylogos/04.png";
+import companyLogo5 from "./companylogos/05.png";
+import companyLogo6 from "./companylogos/06.png";
+import companyLogo7 from "./companylogos/07.png";
 
 export {
   logo,
   check,
   check2,
   loading1,
-  brainmasterSymbol,
+  techNetSymbol,
+  course1,
+  course2,
+  course3,
   brainmasterWhiteSymbol,
   play,
   gradient,

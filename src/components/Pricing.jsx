@@ -2,7 +2,7 @@ import { MouseParallax } from "react-just-parallax";
 import { smallSphere, stars } from "../assets";
 import Button from "./Button";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
+import ServicesList from "./ServicesList";
 import Section from "./Section";
 import { LeftLine, RightLine } from "./design/Pricing";
 
@@ -31,23 +31,23 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          title="Pay once, use forever"
-          tag="Get started with Brain"
-          tagAccent="master"
+          title=""
+          tag="Get started with TechNet"
+          tagAccent="Lab"
         />
         <div className="relative">
-          <PricingList />
+          <ServicesList />
           <LeftLine />
           <RightLine />
         </div>
-        <div className="flex justify-center mt-10">
+        {/* <div className="flex justify-center mt-10">
           <Button
             className="text-xs font-code font-bold tracking-wider uppercase"
             href="#pricing"
           >
             See the full details
           </Button>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
