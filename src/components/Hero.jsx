@@ -7,7 +7,6 @@ import { ScrollParallax } from "react-just-parallax";
 import { heroIcons } from "../constants";
 import Generating from "./Generating";
 import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef();
@@ -40,9 +39,9 @@ const Hero = () => {
             Your Gateway to Global Certifications, Advanced Training, and Career
             Excellence
           </p>
-          <Button href="/" white>
+          {/* <Button href="/" white>
             Get Started
-          </Button>
+          </Button> */}
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -89,7 +88,6 @@ const Hero = () => {
           </div>
           <BackgroundCircles />
         </div>
-        {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
       </div>
       <BottomLine />
     </Section>

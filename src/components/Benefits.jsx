@@ -7,11 +7,11 @@ import { GradientLight } from "./design/Benefits";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="about">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with TechNet"
+          title="Bridge the Gap, Boost Your Career with TechNet"
           accent="Lab"
         />
         <div className="flex flex-wrap gap-10 mb-10">
@@ -27,16 +27,16 @@ const Benefits = () => {
                 <h3 className="h5 mb-5">{item.title}</h3>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                  {/* <img
                     src={item.iconUrl}
                     width={48}
                     height={48}
                     alt={item.title}
-                  />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  /> */}
+                  {/* <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
-                  </p>
-                  <Arrow />
+                  </p> */}
+                  {/* <Arrow /> */}
                 </div>
               </div>
               {item.light && <GradientLight />}

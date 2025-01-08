@@ -43,6 +43,9 @@ import {
   sliders04,
   telegram,
   twitter,
+  course1,
+  course2,
+  course3
 } from "../assets";
 
 export const navigation = [
@@ -104,10 +107,30 @@ export const companyLogos = [
 ];
 
 export const brainmastertServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  {
+    title: "Training Programs",
+    desc: "We provide strategic insights and solutions tailored to your needs, including:",
+  },
+  {
+    title: "Global Certifications",
+    desc: "",
+  },
+  {
+    title: "Research Initiatives",
+    desc: "",
+  },
+
+  {
+    title: "Consulting Services",
+    desc: "",
+  },
 ];
+// export const brainmastertServices = [
+//   "IT Infrastructure Development",
+//   "Digital Transformation Strategies",
+//   "Business Process Optimization",
+//   "Startup Mentorship and Growth Planning"
+// ];
 
 export const brainmasterServicesIcons = [
   recording03,
@@ -120,55 +143,49 @@ export const brainmasterServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "January 2024",
-    status: "done",
+    title: "Our Vision",
+    text: "To be a global leader in fostering professional excellence, empowering innovation, and driving meaningful transformation in the IT, management, and entrepreneurship sectors.Empowering Innovation Through Training, Research, and Consulting",
+    imageUrl: roadmap4,
+  },
+  {
+    id: "1",
+    title: "Expert Leadership",
+    text: "Our team includes IIT/IIM alumni and industry-certified professionals from global giants like Microsoft and Google.",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2024",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "June 2024",
-    status: "progress",
-    imageUrl: roadmap3,
+    title: "Tailored Solutions",
+    text: "Whether you're an individual aiming to upskill or a corporate team seeking growth, our programs and consulting services are customized to align with your unique goals and challenges.",
+    imageUrl: roadmap2
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "March 2024",
-    status: "done",
-    imageUrl: roadmap4,
+    title: "Our Promise",
+    text: "At Tecnet Lab, we're not just about imparting knowledge; we're about transforming lives and organizations. Whether you are an aspiring professional, a startup founder, or an established organization seeking to innovate, we’re here to guide you every step of the way.",
+    imageUrl: roadmap3,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Tecnet Lab was founded by IIT IIM alumni with a vision to bridge the skill gap in the IT and management industries. We specialize in international certifications and practical skill-building in cutting-edge technologies. Our mission is to provide world-class training to help individuals achieve global certifications and excel in their careers.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Innovation",
+    text: "Empowering learners with the latest technologies.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Excellence",
+    text: "Ensuring quality education and training.",
   },
   {
     id: "2",
     title: "Top-notch Security",
+    text: "Flexible learning modes to suit every learner's needs.",
   },
 ];
 
@@ -234,35 +251,75 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Training Programs",
+    description:
+      "Comprehensive programs designed to enhance professional and technical skills for career advancement.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Industry-aligned courses in IT, management, and emerging technologies.",
+      "Practical learning with hands-on projects and real-world scenarios.",
+      "Flexible online and on-campus bootcamps for immersive experiences.",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Global Certifications",
+    description:
+      "Achieve internationally recognized certifications to excel in IT, management, and emerging technology fields.",
+    price: "0",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Courses aligned with global industry standards.",
+      "Preparation for certifications in AI, Web3, Blockchain, and more.",
+      "Guidance from experienced mentors to ensure success.",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: "199",
+    title: "Bootcamps",
+    description:
+      "Intensive, hands-on learning experiences to quickly build expertise in high-demand skills.",
+    price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Online and on-campus options to suit your schedule.",
+      "Hands-on projects to reinforce learning.",
+      "Expert-led sessions in emerging technologies and modern tools.",
+    ],
+  },
+  {
+    id: "3",
+    title: "Entrepreneurship Development",
+    description:
+      "Practical guidance to transform ideas into thriving businesses.",
+    price: "0",
+    features: [
+      "Mentorship for startup growth and scaling strategies.",
+      "Workshops on business planning and execution.",
+      "Access to a network of industry leaders and investors.",
+    ],
+  },
+  {
+    id: "4",
+    title: "Research Initiatives",
+    description:
+      "Driving innovation and exploration to solve real-world challenges.",
+    price: "0",
+    features: [
+      "Focus on emerging technologies like AI, Web3, Blockchain, and AR/VR.",
+      "Development of sustainable and impactful solutions.",
+      "Advancing knowledge in IT systems, management strategies, and entrepreneurship.",
+    ],
+  },
+  {
+    id: "5",
+    title: "Consulting Services",
+    description:
+      "Strategic insights and tailored solutions to achieve business excellence.",
+    price: "0",
+    features: [
+      "Scalable and secure IT infrastructure development.",
+      "Digital transformation strategies for growth and innovation.",
+      "Streamlined business process optimization.",
+      "Startup mentorship for growth and market entry.",
     ],
   },
 ];
@@ -270,33 +327,42 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Elite Trainers",
+    text: "Learn from certified experts and alumni of IITs, IIMs, Microsoft, Google, and other global tech leaders.",
     backgroundUrl: "./assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
+  // {
+  //   id: "1",
+  //   title: "Comprehensive Curriculum",
+  //   text: "Courses designed to match the latest industry trends and technologies.",
+  //   backgroundUrl: "./assets/benefits/card-2.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage3,
+  //   light: true,
+  // },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./assets/benefits/card-2.svg",
+    title: "Entrepreneurship Lab",
+    text: "Business model development, Market research and validation, Pitch deck creation and funding strategy",
+    backgroundUrl: "./assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage3,
+    imageUrl: benefitImage7,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Modern Labs",
+    text: "Gain real-world experience in our AI, Web3, Networking Data Center, Software Development, and Marketing Labs.",
     backgroundUrl: "./assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage4,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "AI Lab",
+    text: "Work on AI projects, machine learning algorithms, and neural networks.",
     backgroundUrl: "./assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage5,
@@ -304,20 +370,48 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Web3 Lab",
+    text: "Develop blockchain applications and decentralized solutions.",
     backgroundUrl: "./assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage6,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Marketing Lab",
+    text: "Create, test, and analyze digital marketing strategies in real time",
     backgroundUrl: "./assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage7,
     light: true,
+  },
+];
+
+export const courses = [
+  {
+    id: "0",
+    title: "Network Engineering",
+    text: "Master the design, implementation, and management of secure, high-performance network systems",
+    backgroundUrl: "./assets/benefits/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: course1,
+  },
+  {
+    id: "1",
+    title: "Network Security",
+    text: "Learn to protect and secure networks from cyber threats through advanced security techniques and best practices",
+    backgroundUrl: "./assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: course2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Cybersecurity",
+    text: "Develop the skills to safeguard systems, networks, and data from cyber threats using cutting-edge security practices and tools",
+    backgroundUrl: "./assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: course3,
   },
 ];
 

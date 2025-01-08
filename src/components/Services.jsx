@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainmaster unlocks the potential of AI-powered applications"
+          title="What We Do"
+          text="To deliver world-class education, cutting-edge research opportunities, and strategic consulting services that drive innovation, enhance careers, and support organizational growth"
         />
 
         <div className="relative">
@@ -27,24 +27,25 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 src={service1}
-                alt="Smartest AI"
+                alt="Our Services"
                 width={800}
                 height={730}
               />
             </div>
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h3 className="h4 mb-4">Smartest AI</h3>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Brainmaster unlocks the potential of AI-powered applications
+            <div className="relative z-1 max-w-[27rem] ml-auto">
+              <h3 className="h4 mb-4">Our Services</h3>
+              <p className="body-2 mb-[1rem] text-n-3">
+                We offer comprehensive programs designed to enhance professional
+                and technical skills
               </p>
-              <ul className="body-2">
+              <ul className="body-4">
                 {brainmastertServices.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
                     <img width={24} height={24} src={check} alt="check" />
-                    <p className="ml-4">{item}</p>
+                    <p className="ml-4">{item?.title}</p>
                   </li>
                 ))}
               </ul>
@@ -55,7 +56,7 @@ const Services = () => {
           </div>
 
           {/* Service 2 */}
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+          {/* <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
@@ -76,7 +77,6 @@ const Services = () => {
               <PhotoChatMessage />
             </div>
 
-            {/* Service 3 */}
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h3 className="h4 mb-4">Video generation</h3>
@@ -120,7 +120,7 @@ const Services = () => {
                 <VideoBar />
               </div>
             </div>
-          </div>
+          </div> */}
           <Gradient />
         </div>
       </div>
